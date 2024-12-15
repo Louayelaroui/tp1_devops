@@ -4,5 +4,5 @@ metadata :
   name : app-configmap
 data :
   MONGO_URI : mongodb://mongodb-service:27017/todos
-  REACT_APP_SERVER_URL : http://server-service:5000
-  PORT : "5000"
+  REACT_APP_SERVER_URL : http://server-service:9000
+  PORT : "9000"
